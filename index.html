@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <title>sp-viewer</title>
+    </head>
+    <body>
+        <h1>URLを入力してください</h1>
+        <form id="urlForm">
+            <input
+                type="text"
+                id="urlInput"
+                placeholder="https://example.com"
+                required
+            />
+            <button type="submit">表示</button>
+        </form>
+        <br />
+        <iframe
+            id="urlFrame"
+            style="width: 375px; height: 667px; border: 1px solid black"
+        ></iframe>
+    </body>
+</html>
